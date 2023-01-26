@@ -1,0 +1,25 @@
+
+
+.wrap{
+
+	h2{margin-bottom: 1em;}
+
+	p{
+		transition: 0.5s;
+		border-radius: 0.5em;
+		padding: 20px;
+		background: rgba(22,22,22,0.8);
+		color: $white;
+	}
+	text-align: center;
+}
+
+
+.grid{
+	display: grid;
+	width: 100%;
+	gap: 3em;
+	grid-template-columns: 1fr 1fr;
+}
+
+
